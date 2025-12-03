@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mattia Zinchiri • Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="dark">
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="logo">MZ</div>
+        <a href="#home">Home</a>
+        <a href="#about">Chi Sono</a>
+        <a href="#experience">Esperienza</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certificazioni</a>
+        <a href="#contact">Contatti</a>
+      </div>
+
+      <button id="toggleMode" class="mode-btn">☀️</button>
+
+      <div class="nav-mobile-btn" id="mobileMenuBtn">☰</div>
+    </nav>
+
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">Chi Sono</a>
+      <a href="#experience">Esperienza</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certificazioni</a>
+      <a href="#contact">Contatti</a>
+    </div>
+
+    <section id="home" class="hero">
+      <img
+        src="assets/image/foto.jpg"
+        class="profile-img"
+        alt="Mattia Zinchiri"
+      />
+      <h1>Mattia Zinchiri <span class="cv-icon" id="openCvModal">📄</span></h1>
+      <p>Software Developer | Full Stack | Milano</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary">Contattami</a>
+        <a href="#experience" class="btn btn-secondary">Vedi Esperienza</a>
+      </div>
+    </section>
+
+    <div id="cvModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeCvModal">&times;</span>
+        <iframe
+          src="assets/cv/cv.pdf"
+          width="100%"
+          height="600px"
+          style="border: none; border-radius: 10px"
+        ></iframe>
+      </div>
+    </div>
+
+    <section id="about" class="section">
+      <h2>Chi Sono</h2>
+      <div class="card">
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px">
+          Sono un <strong>Software Developer Full Stack</strong> con esperienza
+          consolidata nello sviluppo di applicazioni web enterprise. Mi occupo
+          sia dello sviluppo
+          <strong>backend con Java e Spring Framework</strong>, che del
+          <strong>frontend con Angular</strong>, con particolare focus sulla
+          gestione di database relazionali <strong>Oracle SQL</strong>.
+        </p>
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px">
+          Ho maturato competenze significative in contesti aziendali
+          strutturati, occupandomi di supporto applicativo, sviluppo di
+          reportistica con <strong>SAP Business Intelligence</strong> e gestione
+          ticketing su piattaforme enterprise come
+          <strong>SIEBEL e Polarion</strong>.
+        </p>
+        <p style="font-size: 1.1rem; line-height: 1.8; color: #888">
+          Sono un appassionato <strong>ciclista</strong> e giocatore di
+          <strong>pallanuoto</strong>, sport che mi hanno insegnato disciplina,
+          determinazione e spirito di squadra. Mi considero una persona paziente
+          e flessibile, capace di reagire e adattarmi anche nelle situazioni più
+          sfidanti.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Esperienza Professionale</h2>
+
+      <div class="card">
+        <h3>Software Developer • WhereApp S.r.l.</h3>
+        <p style="color: #888; margin-bottom: 15px">
+          📍 Milano | Febbraio 2023 – Presente
+        </p>
+        <ul>
+          <li>
+            Sviluppo di applicazioni web full stack utilizzando
+            <strong>Java 8</strong> e
+            <strong>Spring Framework (Spring MVC)</strong>
+          </li>
+          <li>
+            Implementazione frontend con <strong>AngularJS</strong> per
+            interfacce utente dinamiche e responsive
+          </li>
+          <li>
+            Gestione e ottimizzazione database con
+            <strong>SQL Developer</strong> e Oracle
+          </li>
+          <li>
+            Progettazione e sviluppo di API RESTful per integrazione servizi
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>IT Consultant • WhereApp S.r.l.</h3>
+        <p style="color: #888; margin-bottom: 15px">
+          📍 Milano | Marzo 2022 – Gennaio 2023
+        </p>
+        <ul>
+          <li>
+            Supporto operativo continuativo su applicativi enterprise con
+            interventi di troubleshooting avanzato
+          </li>
+          <li>
+            Esecuzione di query SQL complesse e interrogazioni estemporanee su
+            database Oracle tramite <strong>SQL Developer</strong>
+          </li>
+          <li>
+            Gestione help desk applicativo mediante sistemi di trouble ticketing
+            su piattaforme <strong>SIEBEL (Oracle)</strong> e
+            <strong>Polarion</strong>
+          </li>
+          <li>
+            Creazione di reportistica avanzata e data entry tramite
+            <strong>SAP Business Intelligence</strong>
+          </li>
+          <li>
+            Attività di supporto funzionale e analisi dei requisiti utente
+          </li>
+          <li>
+            Formazione e affiancamento gruppi di utenti per l'utilizzo di
+            applicativi aziendali
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>IT Consultant • Digid S.p.A.</h3>
+        <p style="color: #888; margin-bottom: 15px">
+          📍 Milano | Giugno 2018 – Febbraio 2022
+        </p>
+        <ul>
+          <li>
+            Supporto operativo continuativo su applicativi enterprise con focus
+            su business intelligence
+          </li>
+          <li>
+            Analisi e ottimizzazione di query SQL su database Oracle tramite
+            <strong>SQL Developer</strong>
+          </li>
+          <li>
+            Gestione ticketing su piattaforme <strong>SIEBEL (Oracle)</strong> e
+            <strong>Polarion</strong>
+          </li>
+          <li>
+            Sviluppo reportistica e data entry tramite
+            <strong>SAP Business Intelligence</strong>
+          </li>
+          <li>
+            Supporto funzionale agli utenti finali e risoluzione problematiche
+            applicative
+          </li>
+          <li>Formazione utenti e documentazione processi operativi</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Competenze Tecniche</h2>
+
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Backend Development</h3>
+          <div class="skills-list">
+            <span class="skill">Java 8-17</span>
+            <span class="skill">Spring Boot</span>
+            <span class="skill">Spring MVC</span>
+            <span class="skill">Hibernate</span>
+            <span class="skill">REST API</span>
+            <span class="skill">PL/SQL</span>
+            <span class="skill">Microservizi</span>
+            <span class="skill">Node.js</span> 
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frontend Development</h3>
+          <div class="skills-list">
+            <span class="skill">Angular</span>
+            <span class="skill">AngularJS</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS/SCSS</span>
+            <span class="skill">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Database & Tools</h3>
+          <div class="skills-list">
+            <span class="skill">Oracle SQL</span>
+            <span class="skill">SQL Developer</span>
+            <span class="skill">Query Optimization</span>
+            <span class="skill">PostgresSQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Dev Tools</h3>
+          <div class="skills-list">
+            <span class="skill">SAP BI</span>
+            <span class="skill">SIEBEL</span>
+            <span class="skill">Polarion</span>
+            <span class="skill">Git</span>
+            <span class="skill">Windows Server</span>
+            <span class="skill">MS Office</span>
+            <span class="skill">Jira</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Postman</span>
+            <span class="skill">Intellij</span>
+            <span class="skill">Sts</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <h2>Formazione & Certificazioni</h2>
+
+      <div class="card" style="margin-bottom: 40px">
+        <h3>🎓 Diploma in Sistemi Informativi Aziendali</h3>
+        <p style="color: #888">Istituto Schiaparelli Gramsci</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <h4>🏆 ECDL</h4>
+          <p style="color: #888; font-size: 0.9rem">
+            Certificazione Europea per l'uso del Computer
+          </p>
+        </div>
+
+        <div class="cert-card">
+          <h4>📱 Angular - The Complete Guide</h4>
+          <p style="color: #888; font-size: 0.9rem; margin-bottom: 10px">
+            Corso completo Udemy
+          </p>
+          <a
+            href="https://www.udemy.com/certificate/UC-a94f6ced-fca1-415d-b1d6-4b80ad836841/"
+            target="_blank"
+            style="color: var(--primary); font-size: 0.85rem"
+            >Visualizza certificato →</a
+          >
+        </div>
+
+        <div class="cert-card">
+          <h4>🚀 Spring Boot Masterclass</h4>
+          <p style="color: #888; font-size: 0.9rem; margin-bottom: 10px">
+            Corso avanzato Udemy
+          </p>
+          <a
+            href="https://www.udemy.com/certificate/UC-3be3ab0b-095f-4e5f-873f-dd3e983370d6/"
+            target="_blank"
+            style="color: var(--primary); font-size: 0.85rem"
+            >Visualizza certificato →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contatti</h2>
+      <div class="card">
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <strong>Email</strong><br />
+              <a href="mailto:zinchiri.mattia@gmail.com"
+                >zinchiri.mattia@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📱</span>
+            <div>
+              <strong>Telefono</strong><br />
+              <a href="tel:+393487485638">+39 348 748 5638</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <div>
+              <strong>LinkedIn</strong><br />
+              <a
+                href="https://www.linkedin.com/in/mattia-zinchiri-73a8a0144/"
+                target="_blank"
+                >Mattia Zinchiri</a
+              >
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Posizione</strong><br />
+              Villapizzone, Milano
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Mattia Zinchiri • Software Developer</p>
+      <p style="font-size: 0.85rem; margin-top: 10px; opacity: 0.7">
+        🇮🇹 Italiano (Madrelingua) | 🇬🇧 Inglese (B1)
+      </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
